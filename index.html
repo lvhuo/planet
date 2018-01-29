@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Code</title>
+<title>isweixin</title>
 </head>
 
 <body>
-<a class="det-down-btn" href="http://appdlc.hicloud.com/dl/appdl/application/apk/c3/c3389b7cfb8c43fc94542a9c09075a00/com.ucup.xinshang.1707140827.apk?sign=portal@portal1511945821922&amp;source=portalsite" ><p>Click me</p></a>
-
+	<a href="http://www.rongtengelectron.com/xinshang_2.0.apk">
+	<img id="buy" onclick="isweixin()" src="http://www.rongtengelectron.com/wp-content/uploads/2017/12/buy01.png" width="100%"/>
+	</a>
+<script type="text/javascript">
+function isweixin(){  
+    var ua = navigator.userAgent.toLowerCase();  
+    if(ua.match(/MicroMessenger/i)=="micromessenger")
+	{  
+        var r=confirm("请点击右上角的省略号，选择“在浏览器打开”");
+    } 
+} 
+</script>
 </body>
+
 </html>
