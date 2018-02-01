@@ -1,22 +1,311 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>isweixin</title>
-</head>
+<html>  
+<head>  
+<style type="text/css">
+	.sec01
+	{
+		float:top;
+		width:100%;
+		clear:both;
+	}
+	.sec02
+	{
+		float:left;
+		width:31%;
+		margin:1%;
+	}
+	.sec03
+	{
+		float:left;
+		width:10%;
+		margin:2%;
+	}
+	.func1
+	{
+		float:top;
+		width:100%;
+		clear:both;
+	}
+	.func2
+	{
+		width:100%;
+		display:none;
+	}
+</style>
 
+</head>  
 <body>
-	<a href="http://www.rongtengelectron.com/xinshang_2.0.apk">
-	<img id="buy" onclick="isweixin()" src="http://www.rongtengelectron.com/wp-content/uploads/2017/12/buy01.png" width="100%"/>
-	</a>
+	<div class="sec01">
+		<div class="sec02">
+			<img id="secL" onclick="secL() src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-down2.gif" width=100%/>
+		</div>
+		<div class="sec02">
+			<img id="secM" onclick="secM()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-user1.png" width=100%/>
+		</div>
+		<div class="sec02">
+			<img id="secR" onclick="secR()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-inst1.png" width=100%/>
+		</div>
+	</div>
+
+<div id="div1" style="display:none;clear:both;">
+	1.请选择与您的操作系统相对应的按钮进行下载（APP会持续更新，敬请关注）<br/>
+	<div>
+		<a href="http://www.rongtengelectron.com/xinshang_2.0.apk">
+			<img alt="android"onclick="isweixin()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/download-an.png" width=60% class="aligncenter size-full wp-image-1914"/>
+		</a>
+	</div>
+	<div>
+		<a href="https://itunes.apple.com/cn/app/i-cup/id1020911085?mt=8">
+			<img alt="ios" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/download-ios.png" width=60% class="aligncenter size-full wp-image-1915"/>
+		</a>
+	</div>
+	<br/>
+	2.如果无法下载，请点击右上角的省略号按钮
+	<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/points.gif" alt="points" width=85% class="aligncenter size-full wp-image-1590" /><br/>
+	3.在弹出的菜单中选择&ldquo;在浏览器打开&rdquo;<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/cup-open.png" alt="cup-open" width=80% class="aligncenter size-full wp-image-1598" />
+</div>  
+<div id="div2" style="display:none;">
+	<div id="login01" style="display:block;">
+		<img onclick="tologin02()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/login01.gif" width=90% class="aligncenter size-full wp-image-1951"/>
+		<p><b>注册第一步：</b><br/>进入新尚智能App，来到登录界面，点击“注册一个吧！”，进入注册界面。</p>
+		<a href="javascript:void(0);" onclick="tologin02()" style="float:right;">下一步-></a>
+	</div>
+	<div id="login02" style="display:none;">
+		<img onclick="tologin03()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/login02.gif" width=90% class="aligncenter size-full wp-image-1952"/>
+		<p><b>注册第二步：</b><br/>1.填写手机号；<br/>2.点击“获取验证码”按钮，等待短信通知；<br/>(如果超过1分钟没有收到短信，请点击“重新获取”按钮)<br/>
+		3.填写收到短信中的验证码；<br/>4.自行设置并填写密码；<br/>5.再次填写密码防止输错；<br/>6.点击“注册”按钮，回到登录界面。</p>
+		<a href="javascript:void(0);" onclick="tologin03()" href="" style="float:right;">下一步-></a>
+	</div>
+	<div id="login03" style="display:none;">
+		<img onclick="tologin01()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/login03.gif" width=90% class="aligncenter size-full wp-image-1953"/>
+		<p><b>注册第三步：</b><br/>在登录界面输入刚才注册的手机号和设置的密码，点击“登录”按钮，进入主界面。<br/>（如果忘记密码，请点击“忘记密码”按钮，并填写手机号码，进行密码重置。）</p>
+		<a href="javascript:void(0);" onclick="tologin01()" style="float:right;">回到第一步-></a>
+	</div>
+</div>  
+<div id="div3" style="display:block;">
+	<div class="sec01">
+		<div class="sec03">
+				<img id="fbt" onclick="fbt()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt2.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="fwifi" onclick="fwifi()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="fbell" onclick="fbell()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="fguys" onclick="fguys()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="ftxt" onclick="ftxt()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="fpic" onclick="fpic()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png" width=100%/>
+		</div>
+		<div class="sec03">
+				<img id="fother" onclick="fother()" src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png" width=100%/>
+		</div>
+	</div>
+	<div class="func1" id="func1">
+		<div class="func2">
+		<p>这是蓝牙连接方式的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是wifi连接方式的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是定时水温的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是好友的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是发送文字的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是背景图片的指导教程</p>
+		</div>
+		<div class="func2">
+		<p>这是其他的指导教程</p>
+		</div>
+	</div>
+<!--
+<p>
+	1.登录App，点击“允许”设备打开蓝牙<br/>
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst01.gif" alt="inst01" width=80% class="aligncenter size-full wp-image-1621" />
+	2.点击圆形，实现手机与水杯连接<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst02.gif" alt="inst02" width=80% class="aligncenter size-full wp-image-1622" />
+	3.温度设置：分别设置最低与最高温度，当杯内水温达到该温度区间便会发出提醒<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst03.jpg" alt="inst03" width=80% class="aligncenter size-full wp-image-1623" />
+	4.时间设置：分别设置开始、结束时间与时间间隔，水杯会在该时间区间内根据设定的时间间隔发出提醒<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst04.gif" alt="inst04" width=80% class="aligncenter size-full wp-image-1632" />
+	5.定位：将当前位置发送到水杯（手机须开启定位服务）<br />
+	6.发送文字：在对话框中编辑文字，点击确定即可发送至水杯<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst06.gif" alt="inst06" width=80% class="aligncenter size-full wp-image-1625" />
+	7.清除文字：将当前显示在杯盖上的文字清除<br />
+	8.时间同步：将当前时间发送至水杯<br />
+	9.设备复位：将水杯恢复至初始状态<br />
+	10.解除绑定：解除当前手机与水杯的连接<br />
+	11.设置：对水杯进行更多详细的设置<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst11.jpg" alt="inst11" width=80% class="aligncenter size-full wp-image-1626" />
+	12.wifi连接：点击“设置”，选择“更改连接方式”，点击“wifi连接”，选择ssid,输入密码后完成连接<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst12.gif" alt="inst12" width=80% class="aligncenter size-full wp-image-1630" />
+	13.发送图片：点击“设置”，选择“更换开机图片”，选择图片，对图片进行裁剪，点击“确定”完成发送<br />
+<img src="http://www.rongtengelectron.com/wp-content/uploads/2017/06/inst13.jpg" alt="inst13" width=80% class="aligncenter size-full wp-image-1628" />
+</p>
+-->
+</div>   
 <script type="text/javascript">
-function isweixin(){  
-    var ua = navigator.userAgent.toLowerCase();  
-    if(ua.match(/MicroMessenger/i)=="micromessenger")
+var div1 = document.getElementById("div1");
+var div2 = document.getElementById("div2"); 
+var div3 = document.getElementById("div3");
+var login01 = document.getElementById("login01");
+var login02 = document.getElementById("login02"); 
+var login03 = document.getElementById("login03");
+var func1 = document.getElementById("func1");
+var divArray = func1.getElementsByTagName("div");
+
+function secL()
+{
+	document.getElementById("secL").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-down2.gif";
+	document.getElementById("secM").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-user1.png";
+	document.getElementById("secR").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-inst1.png";
+	div1.style.display='';  
+	div2.style.display='none';  
+	div3.style.display='none'; 
+}
+function secM()
+{
+	document.getElementById("secL").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-down1.png";
+	document.getElementById("secM").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-user2.gif";
+	document.getElementById("secR").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-inst1.png";
+	div1.style.display='none';  
+	div2.style.display='';  
+	div3.style.display='none';
+}
+function secR()
+{
+	document.getElementById("secL").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-down1.png";
+	document.getElementById("secM").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-user1.png";
+	document.getElementById("secR").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/cup-inst2.gif";
+	div1.style.display='none';  
+	div2.style.display='none';  
+	div3.style.display=''; 
+}
+function tologin02()
+{
+	login01.style.display='none';
+	login02.style.display='';
+}
+function tologin03()
+{
+	login02.style.display='none';
+	login03.style.display='';
+}
+function tologin01()
+{
+	login01.style.display='';
+	login03.style.display='none';
+}
+function fbt()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt2.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(0,1,2,3,4,5,6);
+}
+function fwifi()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi2.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(1,0,2,3,4,5,6);
+}
+function fbell()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell2.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(2,0,1,3,4,5,6);
+}
+function fguys()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys2.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(3,0,1,2,4,5,6);
+}
+function ftxt()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt2.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(4,0,1,2,3,5,6);
+}
+function fpic()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic2.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other1.png";
+	showDiv(5,0,1,2,3,4,6);
+}
+function fother()
+{
+	document.getElementById("fbt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bt1.png";
+	document.getElementById("fwifi").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-wifi1.png";
+	document.getElementById("fbell").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-bell1.png";
+	document.getElementById("fguys").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-guys1.png";
+	document.getElementById("ftxt").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-txt1.png";
+	document.getElementById("fpic").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-pic1.png";
+	document.getElementById("fother").src="http://www.rongtengelectron.com/wp-content/uploads/2018/01/func-other2.png";
+	showDiv(6,0,1,2,3,4,5);
+}
+function showDiv(now,p1,p2,p3,p4,p5,p6)
+{
+	divArray[p1].style.display = "none";	
+	divArray[p2].style.display = "none";
+	divArray[p3].style.display = "none";	
+	divArray[p4].style.display = "none";	
+	divArray[p5].style.display = "none";
+	divArray[p6].style.display = "none";
+	divArray[now].style.display = "block";	
+}
+
+showDiv(0,1,2,3,4,5,6);
+
+function isweixin()
+{  
+    var wx = navigator.userAgent.toLowerCase();  
+    if(wx.match(/MicroMessenger/i)=="micromessenger")
 	{  
-        var r=confirm("请点击右上角的省略号，选择“在浏览器打开”");
+        alert("请点击右上角的省略号，在弹出的菜单中选择“在浏览器打开”");
     } 
 } 
-</script>
-</body>
-
-</html>
+</script>  
+</body>  
+</html>  
